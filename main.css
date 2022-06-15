@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(./img/bg-intro-desktop.png);
+    background-color: coral;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 140px 80px;
+
+}
+.text{
+    width: 50%;
+    margin-top: 50px;
+}
+.text h1{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 1000;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 40px;
+    
+}
+.text p{
+    color: #fff;
+}
+.survey{
+    width: 50%;
+}
+.survey h3{
+    width: 80%;
+    background-color: purple;
+    border-radius: 10px;
+    padding: 0.5em;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+.survey-form h3 strong{
+    font-size: 18px;
+}
+.survey-form{
+    background: #fff;
+    width: 80%;
+    margin-top: 15px;
+    border-radius: 8px;
+
+}
+.survey-form form{
+    padding: 2em;
+    width: 70%;
+    height: 58vh;
+}
+.survey-form form input{
+    width: 100%;
+    margin: 1em;
+    padding: 0.5em;
+    padding-right: 25px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.survey-form form button{
+    background: hsl(149, 72%, 50%);
+    width: 100%;
+    margin: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+
+}
+footer p{
+    font-size: 10px;
+    color: grey;
+    padding-left: 34px;
+    padding-bottom: 60px;
+}
+footer p a{
+    text-decoration: none;
+    color: coral;
+}
+@media screen and (max-width:600px) {
+    main{
+        display: block;
+        width: 100%;
+    }
+    .survey{
+        width: 100%;
+    }
+    .text{
+        width: 80%;
+        height: 60vh;
+    }
+    .survey h3{
+        padding: 1.1rem;
+        width: 70%;
+    }
+}
